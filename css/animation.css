@@ -1,0 +1,86 @@
+.boxone {
+    width: 600px;
+    height: 600px;
+    border: border-box;
+    background-color: #0d5825;
+}
+p{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 30px;
+    font-size: 25px;
+}
+.oneimg{
+    width: 150px;
+    height: 190px;
+    position: relative;
+    left: 150px;
+    top: 140px;
+    transform: rotate(-20deg);
+}
+.oneimg:hover{
+    transform: translate(-20px,-20px);
+}
+.twoimg{
+    width: 150px;
+    height: 190px;
+    position: relative;
+    left: 40px;
+    top: 150px;
+    transform: rotate(-5deg);
+}
+.twoimg:hover{
+    transform: translate(-10px, -10px);
+}
+.threeimg{
+    width: 150px;
+    height: 190px;
+    position: relative;
+    left: -60px;
+    top: 170px;
+    transform: rotate(10deg);
+}
+.threeimg:hover{
+    transform: translateY(-30px);
+}
+.boxtwo{
+    width: 400px;
+    height: 400px;
+    border: border-box;
+    background-color:coral;
+    margin-top: 50px;
+}
+.buttomred{
+    width: 50px;
+    height: 50px;
+    border: border-box;
+    background-color: red;
+    border-color: red;
+    position: relative;
+    left: 120px;
+    bottom: -170px;
+    z-index: 100;
+}
+.buttomgreen{
+    width: 50px;
+    height: 50px;
+    border: border-box;
+    background-color: green;
+    border-color: green;
+    position: relative;
+    left: 100px;
+    bottom: -200px;
+    z-index: 200;
+}
+.buttomyellow {
+    width: 50px;
+    height: 50px;
+    border: border-box;
+    background-color: yellow;
+    border-color: yellow;
+    position: relative;
+    left: 80px;
+    bottom: -230px;
+    z-index: 100;
+}
+

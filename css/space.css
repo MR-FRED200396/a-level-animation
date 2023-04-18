@@ -1,0 +1,102 @@
+.kontainer{
+    width: 1570px;
+    height: 740px;
+    position: relative;
+    background-image: url(https://bipbap.ru/wp-content/uploads/2017/04/maxresdefault-2-6.jpg);
+}
+.kwadrat{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    background-color: brown;
+    animation:kwadratduration 10s 0s infinite linear;
+}
+@keyframes kwadratduration{
+    0%{top: 0px; right: 0px;}
+    25%{top: 70px;right: 0px;}
+    50%{top: 70px;right: -70px;}
+    75%{top: 0px;right: -70px;}
+    100%{top: 0px; right: 0px;}
+}
+
+.sun{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 300px;
+    right: -700px;
+    background-color: rgb(243, 188, 8);
+    border-radius: 200px;
+    z-index: 1000;
+}
+.mercurii{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    background-color: grey;
+    z-index: 99;
+    border-radius: 200px;
+    animation:mercurii 15s 0s infinite linear;
+}
+@keyframes mercurii {
+    0% {
+        top: -35px;
+        right: 35px;
+    }
+    25% {
+        top: 90px;
+        right: 35px;
+    }
+    50% {
+        top: 115px;
+        right: -90px;
+    }
+    75% {
+        top: -35px;
+        right: -120px;
+    }
+    100% {
+        top: -35px;
+        right: 0px;
+    }
+}
+.venera{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    background-color: rgb(165, 151, 25);
+    z-index: 101;
+    border-radius: 200px;
+    animation:mercurii 9s 0s infinite linear;
+}
+.ear{
+    width: 55px;
+    height: 55px;
+    position: relative;
+    background-color: rgb(37, 165, 25);
+    z-index: 97;
+    border-radius: 200px;
+    animation: ear 9s 0s infinite linear;
+}
+@keyframes ear {
+    0% {
+        top: -35px;
+        right: 35px;
+    }
+    25% {
+        top: 90px;
+        right: 35px;
+    }
+    50% {
+        top: 115px;
+        right: -90px;
+    }
+    75% {
+        top: -35px;
+        right: -120px;
+    }
+    100% {
+        top: -35px;
+        right: 0px;
+    }
+}

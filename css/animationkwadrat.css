@@ -1,0 +1,27 @@
+.kontainer{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: aquamarine;
+}
+.kwadrat{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    background-color: brown;
+    animation:kwadratduration 10s 0s infinite linear, kwadratkolor 10s 0s infinite linear
+}
+@keyframes kwadratduration{
+    0%{top: 0px; right: 0px;}
+    25%{top: 70px;right: 0px;}
+    50%{top: 70px;right: -70px;}
+    75%{top: 0px;right: -70px;}
+    100%{top: 0px; right: 0px;}
+}
+@keyframes kwadratkolor{
+    0%{background-color: brown;}
+    25%{background-color: rgb(43, 14, 168);}
+    50%{background-color: rgb(42, 165, 48);}
+    75%{background-color: rgb(142, 165, 42);}
+    100%{background-color: brown;}
+}
